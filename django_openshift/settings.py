@@ -25,7 +25,7 @@ SECRET_KEY = '^8cn^a5o1o5yvuw3m4r2)ua9+6^&4g-uj*xf=rorqekn@3exf)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', 'django-test-openshift-my-project.192.168.99.100.nip.io']
 
 
 # Application definition
