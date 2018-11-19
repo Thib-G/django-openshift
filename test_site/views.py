@@ -10,4 +10,5 @@ class IndexView(generic.TemplateView):
         context = super().get_context_data(**kwargs)
         context['msg'] = 'Hello world!'
         context['name'] = os.environ.get('USER_NAME', 'Unknown')
+        context['env'] = os.environ
         return context
