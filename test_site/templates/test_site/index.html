@@ -5,16 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="{% static 'test_site/css/style.css' %}" rel="stylesheet" type="text/css">
     <title>Index</title>
-    <style>
-        html {
-            font-family: Helvetica, Arial, sans-serif;
-        }
-        table, th, td {
-            border: 1px solid black;
-            border-collapse: collapse;
-        }
-    </style>
 </head>
 <body>
     <h1>Index</h1>
@@ -37,7 +29,7 @@
         </tbody>
     </table>
     <p>
-        <img src="{% static 'test_site/django_unchained_2.jpg' %}" alt="Django Image" width="20%" height="20%">
+        <img src="{% static 'test_site/img/django_unchained_2.jpg' %}" alt="Django Image" width="20%" height="20%">
     </p>
 </body>
 </html>
