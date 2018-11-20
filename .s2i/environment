@@ -1,2 +1,2 @@
-APP_HOME=django_openshift/
+APP_MODULE=django_openshift.wsgi:application
 USER_NAME=Set in .s2i
