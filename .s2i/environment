@@ -1,3 +1,2 @@
-DISABLE_COLLECTSTATIC=1
 APP_HOME=django_openshift/
 USER_NAME=Set in .s2i
