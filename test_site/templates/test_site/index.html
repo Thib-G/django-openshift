@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -35,5 +36,8 @@
         {% endfor %}
         </tbody>
     </table>
+    <p>
+        <img src="{% static 'test_site/django_unchained_2.jpg' %}" alt="Django Image" width="20%" height="20%">
+    </p>
 </body>
 </html>
