@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Before assembling"
 
-yum install samba
+export VAR_FROM_ASSEMBLE=Kédiss
 
 /usr/libexec/s2i/assemble
 rc=$?
